@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.page{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.logo img{
+    border-radius: 10%;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    /* background-color: green; */
+}
+
+.nav2{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.items{
+    display: flex;
+    gap: 50px;
+    margin-top: 3.7%;
+    /* margin-right: 5%; */
+    margin-left: 18%;
+}
+
+.items >a{
+    text-decoration: none;
+    /* color: black; */
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.items >a:hover{
+    text-decoration: underline;
+    color: burlywood;
+}
+
+.sib{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    font-size: 20px;
+    font-weight: 100;
+    /* margin-left: 10%; */
+    margin-top: 2%;
+    margin-right: 3%;
+    border-radius: 10%;
+}
+
+.sib:hover{
+    background-color: rgba(245, 245, 245, 0.438);
+    color: #7C3E3D;
+}
+
+.sibr{
+    padding: 5px 10px;
+    background-color: transparent;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    font-size: 12px;
+    font-weight: 100;
+    /* margin-left: 10%; */
+    margin-top: 2%;
+    margin-right: 3%;
+    display: none;
+}
+
+.sibr:hover{
+    background-color: rgba(245, 245, 245, 0.438);
+    color: #7C3E3D;
+}
+
+
+
+.ri-menu-fill{
+    display: none;
+}
+
+
+.box1{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgba(7, 7, 7, 0.151); */
+    background-color: #7c3e3d;
+}
+
+.box2{
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    background-image: url(https://images.unsplash.com/photo-1513094735237-8f2714d57c13?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    /* background-position: center; */
+    /* filter: brightness(0.8); */
+}
+
+
+h1{
+    font-family: montserrat;
+    font-size: 60px;
+    /* color: #7C3E3D; */
+    color: whitesmoke;
+    margin-top: 12%;
+    margin-left: 12%;
+}
+
+h2{
+    font-family: montserrat;
+    font-size: 35px;
+    /* color: #7C3E3D; */
+    color: whitesmoke;
+    margin-top: 2%;
+    margin-left: 12%
+}
+
+p{
+    width: 80%;
+    font-family: montserrat;
+    font-size: 15px;
+    /* color: #7C3E3D; */
+    color: whitesmoke;
+    margin-top: 2%;
+    margin-left: 12%
+}
+
+.em{
+    font-size: 18px;
+    padding: 10px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5%;
+    margin-left: 12%;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 10%;
+}
+
+
+.em:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+
